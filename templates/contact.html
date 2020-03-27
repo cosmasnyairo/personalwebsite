@@ -1,17 +1,30 @@
 {%extends 'layout.html'%}
 {%block content%}
 
-<div class="contact">
-    <div class="w3-padding-32 w3-content" id="contact" style="margin-bottom:64px">
+<style>
+    @media screen and (max-width: 900px) {
+        #contact {
+            width: 75%;
+        }
+    }
+
+    @media screen and (max-width: 600px) {
+        #contact {
+            width: 50%;
+        }
+    }
+</style>
+
+<div class="contactme">
+    <div class="w3-padding-32 w3-content" id="contact" style="margin-bottom: 64px">
         <h2>Contact Me</h2>
         <hr class="w3-opacity">
-    
+
         <p>Lets get in touch. Send me a message:</p>
         <form action="/action_page.php" target="_blank">
-            <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required
-                    name="Name"></p>
-            <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Email" required
-                    name="Email"></p>
+            <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+            <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Email" required name="Email">
+            </p>
             <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Subject" required
                     name="Subject"></p>
             <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message" required
