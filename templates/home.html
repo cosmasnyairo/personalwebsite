@@ -1,0 +1,64 @@
+{%extends 'layout.html'%}
+{%block content%}
+<div class="home">
+    <style>
+        .main {
+            font-family: "Montserrat", sans-serif;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;           
+            background-image: url('static/images/sample.png');
+            color: white;
+            
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: "Montserrat", sans-serif
+        }
+
+        .fa {
+            padding: 10px;
+            font-size: 25px;
+            text-decoration: none;
+        }
+    </style>
+
+    <!-- Page Content -->
+    <div class="main">
+        <!-- Header -->
+
+        <header class="w3-container w3-center" style="padding:50px" id="home">
+            <h1 class="w3-jumbo"><b>Cosmas Nyairo</b></h1>
+            <p>Software Developer and UI/UX Designer.</p>
+            <button class="w3-button w3-light-grey w3-padding-large w3-margin-top" type="submit"
+                onclick="window.open('/static/documents/resume.docx')"> <i class="fa fa-download"></i>Download
+                Resume</button>
+            <br>
+            <button class="w3-button w3-light-grey w3-padding-large w3-margin-top" type="submit"
+                onclick="window.open('contact' ,'_self')"> <i class="fa fa-envelope"></i>Contact Me
+            </button>
+            <br>
+            <br>
+            <p class="w3-large w3-text-theme">Follow Me:</b></p>
+
+            <li style=" display: inline;"><a href="https://www.instagram.com/_.cosmas/"
+                    class="fa fa-instagram w3-hover-opacity"></a></li>
+            <li style=" display: inline;"><a href="https://twitter.com/leg0works"
+                    class="fa fa-twitter w3-hover-opacity"></a></li>
+            <li style=" display: inline;"><a href="https://www.linkedin.com/in/cosmas-nyairo-31066214a/"
+                    class="fa fa-linkedin w3-hover-opacity"></a></li>
+            <li style=" display: inline;"><a href="https://github.com/cosmasnyairo"
+                    class="fa fa-github w3-hover-opacity"></a></li>
+        </header>
+
+        <!-- END PAGE CONTENT -->
+    </div>
+
+
+</div>
+{%endblock%}

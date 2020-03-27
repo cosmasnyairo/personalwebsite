@@ -1,0 +1,213 @@
+{%extends 'layout.html'%}
+{%block content%}
+<style>
+  html,
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Roboto", sans-serif
+  }
+
+  ul {
+    list-style-type: disc;
+  }
+
+  .mybutton {
+    background-color: teal;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+    padding: 12px 21px;
+    text-decoration: none;
+  }
+
+  .fa-user {
+    padding: 10px;
+    font-size: 25px;
+    text-decoration: none;
+  }
+
+  .fa-github {
+    padding: 10px;
+    font-size: 25px;
+    text-decoration: none;
+  }
+
+  .fa-linkedin {
+    padding: 10px;
+    font-size: 25px;
+    text-decoration: none;
+  }
+</style>
+
+<div class="w3-light-grey">
+
+  <!-- Page Container -->
+  <div class="w3-content w3-margin-top" style="max-width:1400px;">
+
+    <!-- The Grid -->
+    <div class="w3-row-padding">
+
+      <!-- Left Column -->
+      <div class="w3-third">
+
+        <div class="w3-white w3-text-grey w3-card-4">
+          <div class="w3-display-container">
+          
+          </div>
+          <div class="w3-container">
+            <h2 class="w3-text-grey w3-padding-16"><i
+              class="fa fa-bookmark-o efa-fw w3-margin-right w3-xxlarge w3-text-teal"></i> Overview</h2>
+              <hr>
+            <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>I am a Software Developer and UI/UX
+              designer.</p>
+            <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Nairobi, Kenya</p>
+            <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>nyairocosmas@gmail.com</p>
+            <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>+254799344215</p>
+        
+            <hr>
+
+            <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i> My Skills</b></p>
+            <ul>
+              <li>Mobile App Development</li>
+              <li>Web Front-End Development</li>
+              <li>Web Back-End Development</li>
+              <li>UI/UX Design</li>
+              <li>Machine Learning & Python</li>
+            </ul>
+
+            <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Programming
+                Languages</b></p>
+            <ul>
+              <li>Flutter</li>
+              <li>Python</li>
+              <li>Php</li>
+              <li>Java</li>
+              <li>JavaScript</li>
+              <li>C++</li>
+              <li>MySQL</li>
+              <li>Php</li>
+              <li>HTML, CSS</li>
+            </ul>
+
+            
+
+            <br>
+          </div>
+        </div>
+        <br>
+
+        <!-- End Left Column -->
+      </div>
+
+      <!-- Right Column -->
+
+      <div class="w3-twothird">
+        <!-- Projects  Section -->
+        <div class="w3-container w3-card w3-white w3-margin-bottom">
+          <h2 class="w3-text-grey w3-padding-16"><i
+              class="fa fa-circle efa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Some of My Work</h2>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>Faida Estate Management Sysytem</b></h5>
+            <p>A web based application that assist in effective management of residential estates with a PayPal
+              Checkout and Chat functionality between residents.</p>
+            <div class="w3-container-3 w3-card " style=" width:50%">
+              <img src="/static/images/faida.png" alt="Faida" style=" width:100%">
+            </div>
+            Collaborated with: <a href="https://github.com/AllanVikiru" class="fa fa-user w3-hover-opacity"></a>
+            <br>
+            Github of Project: <a href="https://github.com/cosmasnyairo/FaidaEstate"
+              class="fa fa-github w3-hover-opacity"></a>
+            <hr>
+          </div>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>Bisco Ride Sharing App</b></h5>
+            <p>A web based application that assist in effective management of residential estates with a PayPal
+              Checkout and Chat functionality between residents.</p>
+            <div class="w3-container-3 w3-card " style=" width:50%">
+              <img src="/static/images/bisco.png" alt="Faida" style=" width:100%">
+            </div>
+            <p>An Android Ride Sharing application designed with the City of Nairobi in mind.</p>
+            Collaborated with : <br>
+            <li style="display: inline;"><a href="https://github.com/danielolamide"
+                class="fa fa-user w3-hover-opacity"></a></li>
+            <li style="display: inline;"><a href="https://github.com/M-Waweru" class="fa fa-user w3-hover-opacity"></a>
+            </li>
+            <li style="display: inline;"><a href="https://github.com/poppinjay13"
+                class="fa fa-user w3-hover-opacity"></a></li>
+            <li style="display: inline;"><a href="https://github.com/Sianwa" class="fa fa-user w3-hover-opacity"></a>
+            </li>
+            <br>
+            Github of Project: <a href="https://github.com/poppinjay13/Bisco" class="fa fa-github w3-hover-opacity"></a>
+            <hr>
+          </div>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>E-Shop Eccomerce Flutter App</b></h5>
+            <p>Shop App made using Flutter that allows users to view products, add them to the cart, view their orders
+              and also allows them to add, edit and update products.</p>
+            <div class="w3-container-3 w3-card " style=" width:50%">
+              <img src="/static/images/e-shop.jpg" alt="Faida" style=" width:100%">
+            </div>
+            <br>
+            Github of Project: <a href="https://github.com/cosmasnyairo/shop_app"
+              class="fa fa-github w3-hover-opacity"></a>
+            <hr>
+          </div>
+        </div>
+
+        <!-- Education Section -->
+        <div class="w3-container w3-card w3-white w3-margin-bottom">
+          <h2 class="w3-text-grey w3-padding-16"><i
+              class="fa fa-graduation-cap efa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>Strathmore University - Nairobi, Kenya</b></h5>
+            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>April 2017 - <span
+                class="w3-tag w3-teal w3-round">Current</span></h6>
+            <p>Bachelor of Informatics and Computer Science </p>
+            <hr>
+          </div>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>Kisii High School - Kisii, Kenya</b></h5>
+            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2016</h6>
+            <p>Kenya Certiﬁcate of Secondary Education (K.C.S.E).</p>
+            <hr>
+          </div>
+        </div>
+
+        <!-- Employment Section -->
+        <div class="w3-container w3-card w3-white w3-margin-bottom">
+          <h2 class="w3-text-grey w3-padding-16"><i
+              class="fa fa-briefcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
+
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>Strathmore Africa Data Analytics Center</b></h5>
+            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>January 2020 - March 2020</h6>
+            <p>Mobile App Developer Intern</p>
+            <hr>
+          </div>
+
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>Kenyatta National Hospital</b></h5>
+            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Feb. 2018 – Mar. 2018</h6>
+            <p> Community Based Attachment </p>
+            <hr>
+          </div>
+        </div>
+
+        <!-- End Right Column -->
+      </div>
+
+      <!-- End Grid -->
+
+    </div>
+
+    <!-- End Page Container -->
+  </div>
+</div>
+
+{%endblock%}
